@@ -19,4 +19,4 @@ process.on('SIGTERM', () => {
     execSync('rm -rf awakened-poe-trade')
 });
 
-main();
+//main();
