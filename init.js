@@ -3,7 +3,7 @@ const { execSync } = require("child_process");
 const main = () => {
     try {
         // clone fork
-        execSync('git clone https://github.com/Lavalierre/awakened-poe-trade')
+        execSync('git clone https://github.com/Lavalierre/awakened-poe-trade.git')
 
         // build app and move it to page root
         execSync('cd awakened-poe-trade/renderer && npm install && npm run make-index-files && npm run build');
@@ -19,4 +19,4 @@ process.on('SIGTERM', () => {
     execSync('rm -rf awakened-poe-trade')
 });
 
-//main();
+main();
