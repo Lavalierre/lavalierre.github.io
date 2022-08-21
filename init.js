@@ -10,7 +10,7 @@ const main = () => {
         execSync('cp -r awakened-poe-trade/renderer/dist/. .');
     } finally {
         // cleanup
-        execSync('rm -rf awakened-poe-trade-web-version')
+        execSync('rm -rf awakened-poe-trade')
     }
 };
 
