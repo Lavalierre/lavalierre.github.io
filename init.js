@@ -3,6 +3,7 @@ const { execSync } = require("child_process");
 const main = () => {
     try {
         // clone fork
+// test
         execSync('git clone https://github.com/Lavalierre/awakened-poe-trade.git')
 
         // build app and move it to page root
