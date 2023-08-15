@@ -4,7 +4,7 @@ const main = () => {
     try {
         // clone fork
 // test
-        execSync('git clone https://github.com/SnosMe/awakened-poe-trade.git')
+        execSync('git clone https://github.com/Lavalierre/awakened-poe-trade.git')
 
         // build app and move it to page root
         execSync('cd awakened-poe-trade/renderer && npm install && npm run make-index-files && npm run build');
